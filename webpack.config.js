@@ -5,7 +5,7 @@ module.exports = {
     devtool: "inline-source-map",
     entry: "./app.js",
     output: {
-      path: __dirname + "/dist",
+      path: __dirname + "/docs",
       filename: "bundle.js"
     },
     resolve: {
@@ -19,7 +19,7 @@ module.exports = {
       ]
     },
     devServer: {
-      contentBase: path.join(__dirname, 'dist'),
+      contentBase: path.join(__dirname, 'docs'),
       compress: true,
       port: 9000
     },
