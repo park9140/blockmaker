@@ -5,7 +5,7 @@ module.exports = {
     devtool: "inline-source-map",
     entry: "./app.js",
     output: {
-      path: __dirname + "/dist/js",
+      path: __dirname + "/dist",
       filename: "bundle.js"
     },
     resolve: {
@@ -27,7 +27,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             hash: true,
             template: './index.html',
-            filename: './dist/index.html' //relative to root of the application
+            filename: './index.html' //relative to root of the application
         })
     ],
   };
