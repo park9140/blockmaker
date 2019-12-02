@@ -1,0 +1,27 @@
+{
+  "name": "blockoptimizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "comlink": "^4.1.0",
+    "google-font-to-svg-path": "git+https://github.com/danmarshall/google-font-to-svg-path.git",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "comlink-loader": "^1.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^4.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webworker-loader": "^0.1.0"
+  }
+}
